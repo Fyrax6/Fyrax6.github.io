@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css?family=Hyundai:400,700);
+
+body {
+  color: #555;
+  margin: 0;
+
+  font-family: 'Hyundai', sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4 {
+  color: #333;
+}
+
+img {
+  border-radius: 50%;
+}
+
+#header {
+  background-color: #101010;
+  height: 150px;
+  line-height: 150px;
+}
+
+#header a {
+  color: #FF8C00;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#header a:hover {
+  color: #FFD700;
+}
+
+#header-title {
+  display: block;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#header-nav {
+  display: block;
+  float: right;
+  margin-top: 0;
+}
+
+#header-nav li {
+  display: inline;
+  padding-left: 20px;
+}
+
+#footer {
+  background-color: #101010;
+  padding: 50px 0;
+}
+
+.column {
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#footer h4 {
+  color: #FF6347;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#footer p {
+  color: #FFD700;
+}
+
+#footer a {
+  color: #1abc9c;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  color: #F6A623;
+}
+
+#content {
+
+}
+
+.container, .post-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.post {
+  max-width: 800px;
+  margin: 0 auto;
+  padding:60px 0;
+}
+
+.post-author img {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  float: left;
+}
+
+.post-author span {
+  margin-left: 16px;
+}
+
+.post-date {
+  color: #D2D2D2;
+
+  font-size: 14px;
+  font-weight: bold;
+
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.post-container:nth-child(even) {
+  background-color: #00D0DD;
+}
+
+.post-container:nth-child(odd) {
+  background-color: #00D066;
+}
+
+.about {
+  text-align: center;
+}
